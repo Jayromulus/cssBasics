@@ -1,0 +1,50 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  border: 2px solid blue;
+  margin-top: 50px;
+  margin-right: 250px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  /* margin: 50px 250px 200px 200px */
+
+  /* padding: top right bottom left */
+  padding: 20px 20px 20px 40px;
+}
+
+p {
+  height: 40px;
+  background-color: blue;
+  /* border: 5px solid pink */
+  border-width: 5px;
+  border-style: solid;
+  border-color: pink;
+}
+
+.margin-experiment-1a, .margin-experiment-1b {
+  margin: 0;
+  /* margin: 50px - affect all 4 sides at once */
+  /* margin: 50px 50px - affect top/bottom and left/right */
+  /* margin: 50px 50px 50px - top left/right bottom */
+  /* margin: 50px 50px 50px 50px - affect top right bottom left */
+}
+
+.margin-experiment-2 {
+  margin: 5px 10px 20px 0;
+  padding: 10px;
+}
+
+.padded-container {
+  border: 2px solid red;
+  margin: 50px;
+  padding: 20px 20px 20px 40px;
+}
+
+#padding-experiment-1 {
+  border: 2px solid yellow;
+  margin: 50px;
+  padding: 40px;
+  color: white;
+}

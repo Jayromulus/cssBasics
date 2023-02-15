@@ -1,0 +1,21 @@
+/* test the connection */
+body {
+  background-color: rgb(155, 155, 255);
+}
+
+#number-one {
+  color: red;
+}
+
+#number-two {
+  font-size: 20px;
+}
+
+.second-class {
+  color: orange;
+  font-size: 24px;
+}
+
+.first-class {
+  color: brown;
+}
