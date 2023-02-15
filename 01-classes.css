@@ -1,0 +1,25 @@
+/* A rule set is a group of css styles for a given selector */
+/* rule set 1: everything within the body tag will have a pale pink background */
+body {
+  background-color: pink;
+}
+
+/* rule set 2: everything within a "css-class" class will have a lightgray(lightgrey) background */
+.css-class {
+  background-color: lightgray;
+}
+
+/* rule set 3: All h1 tags within a "css-class" class will have a font size of 18px */
+.css-class h1 {
+  font-size: 18px;
+}
+
+/* rule set 4: All of the p tags within a "css-class" will have orangered text and a font size of 16px */
+.css-class p {
+  color: orangered;
+  font-size: 16px;
+}
+
+.css-class li {
+  color: rgb(58, 58, 255);
+}
