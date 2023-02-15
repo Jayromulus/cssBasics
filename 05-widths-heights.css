@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 5px;
+  background-color: orange;
+  width: 70%
+}
+
+h1 {
+  text-align: center
+}
+
+#half {
+  width: 50%;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+
+body {
+  background-color: navy;
+}
+
+.sandbox {
+  margin-top: 2em;
+  border: 10px ridge limegreen;
+  color: white;
+  /* text-align: center; */
+}
+
+.sandbox img {
+  height: 300px;
+  width: 300px;
+}
