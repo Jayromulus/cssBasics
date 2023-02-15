@@ -1,0 +1,59 @@
+.wrapper {
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.background-one {
+  background-color: blue;
+  padding: 7px;
+}
+
+/* combinator */
+.background-one p {
+  color: white;
+}
+
+/* p.background-one {
+  color: white;
+} */
+
+.background-two {
+  background-image: url("../assets/upfeathers.png");
+  /* when you only provide 2 values for padding, it applies in order of top/bottom then right/left */
+  padding: .5em 1em;
+}
+
+.rainbow-container {
+  height: 200px;
+  /* background: linear-gradient(
+     angle of the gradient - what angle shows up when the colors transition (90deg vertical line, 270deg also vertical line 
+    45deg,
+     initial color 
+    red 45%,
+    rgba(75, 75, 211, 1),
+     ending color 
+    purple
+  ); */
+  background: linear-gradient(
+      90deg,
+      rgba(255, 0, 0, 1) 0%,
+      rgba(255, 154, 0, 1) 10%,
+      rgba(208, 222, 33, 1) 20%,
+      rgba(79, 220, 74, 1) 30%,
+      rgba(63, 218, 216, 1) 40%,
+      rgba(47, 201, 226, 1) 50%,
+      rgba(28, 127, 238, 1) 60%,
+      rgba(95, 21, 242, 1) 70%,
+      rgba(186, 12, 248, 1) 80%,
+      rgba(251, 7, 217, 1) 90%,
+      rgba(255, 0, 0, 1) 100%
+  );
+  /* linear-gradient(90deg, red, purple); */
+}
