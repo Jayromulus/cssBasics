@@ -1,0 +1,10 @@
+/* <!-- this is an html comment --> */
+/* This is a css comment */
+body {
+  background-color: #dfdfdf;
+}
+
+/* Make another comment */
+.wrapper {
+  border: 10px solid red;
+}
