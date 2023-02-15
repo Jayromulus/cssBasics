@@ -1,0 +1,30 @@
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+dt {
+  /* makes our font bold, we can also use multiples of 100 from 100-900 */
+  font-weight: bold;
+
+  /* changes the size of our font */
+  font-size: 20px;
+
+  /* instead of px being an absolute unit, 1rem is based on the size of the letter m using the root font size */
+  margin-top: 1rem;
+}
+
+#family {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#size {
+  font-size: x-large;
+}
+
+#weight {
+  font-weight: bolder;
+}
