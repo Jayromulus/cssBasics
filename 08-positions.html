@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./08-positions.css">
+  <title>Positions</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="nav">
+      <p>This div has a fixed position</p>
+    </div>
+    <div class="positioning">
+      <h1>Positioning</h1>
+      <p>the position property specifies the type of positioning method used for an element</p>
+      <p>The four positioning values are:</p>
+      <ul>
+        <li><strong>fixed:</strong> this will pin something to a spot and it will stay there as a user scrolls. (ex: nav bar, footer) Fixed position takes an element out of the document</li>
+        <li><strong>static:</strong> this is the default positioning in html. It is not affected by <code>top, bottom, left, right</code> properties. It is always positioned according to the normal flow of the page.</li>
+        <li><strong>relative:</strong> does not take the element out of the normal document flow. this does, however, allow us to move it using the top, right, bottom, and left properties. Other content will not be adjusted to fill gaps left by a relative element</li>
+        <li><strong>absolute:</strong> takes the element out of the normal document flow. if the parent is set to relative, and the child is set to absolute, the absolute position of 0,0 is going to be the top left corner of the parent element</li>
+      </ul>
+      <p>The <strong>z-index</strong> property allows you to override the normal stacking order of tthe page. the default z-index is 0; and you can set that value to be positive or negative. An element with a greater z-index will stack in front of an element with a lower z-index. if elements have the same z-index, the element which appears later on the html document will be show on top. you must have a position assigned in order to use the z-index property.</p>
+    </div>
+
+    <div class="example">
+      <div>  
+        <p>This is absolute text</p>
+      </div>
+    </div>
+
+    <div class="lotsoftext">
+      <h2>Here is some text that you can scroll and see the div with a fixed position stay where it is told to.</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eaque voluptas nostrum? Vero illo ut
+        deleniti debitis magnam reprehenderit, ullam sunt obcaecati maiores quis a nostrum maxime dolore ipsam sapiente?
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corporis laudantium velit aspernatur
+        consectetur, omnis ut totam reiciendis eligendi tempora dolorum minima, vel facere amet quam eveniet, non
+        excepturi quos.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam blanditiis dolores pariatur et rerum molestias
+        repellat libero dignissimos recusandae quaerat aut inventore sapiente fugiat, adipisci aspernatur quia deserunt
+        repudiandae! Ad?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, reprehenderit magnam sed quis
+        necessitatibus fugiat voluptates pariatur nam quasi, impedit ipsum ut excepturi totam ex iusto fuga commodi at
+        maxime!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem nesciunt nobis sequi, laudantium incidunt alias
+        voluptatum corporis, nostrum neque accusantium explicabo qui iste quo doloribus repellat necessitatibus magnam
+        unde quae.</p>
+    </div>
+  </div>
+
+  <!-- emmet abbreviations -->
+</body>
+
+</html>

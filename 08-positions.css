@@ -1,0 +1,52 @@
+.wrapper {
+  margin: 5px;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-left: 10px;
+  width: 250px;
+  background-color: lightgrey;
+  border: 3px solid navy;
+  z-index: 5;
+}
+
+.lotsoftext {
+  /* 1 vh is equal to 1/100th of height of our current webpage's view */
+  /* 150vh is the same as 150% of our current view height */
+  height: 150vh;
+  width: 75%;
+  background-color: lightseagreen;
+  padding: 10px;
+}
+
+.positioning {
+  width: 75%;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.positioning h1 {
+  text-align: center;
+}
+
+.example {
+  position: relative;
+  padding: 10px;
+  width: 75%;
+  left: 200px;
+  height: 150px;
+  background-color: lightcoral;
+}
+
+.example div {
+  position: absolute;
+  background-color: lightslategray;
+  left: -200px;
+  top: 0px;
+  width: 200px;
+  height: 150px;
+  padding: 10px 0;
+}
